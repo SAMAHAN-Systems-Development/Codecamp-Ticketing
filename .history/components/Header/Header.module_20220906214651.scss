@@ -20,6 +20,7 @@
     }
 
     &__text-container {
+        font-family: "Space Mono", monospace;
         color: $color--light--yellow;
         display: flex;
         justify-content: center;
@@ -46,5 +47,13 @@
 
 @media only screen and (max-height: 670px) {
     .section {
+    
+        .title_container {
+    
+            .img_wrapper {
+                height: 10rem;
+                bottom: 1rem;
+            }
+        }
     }
 }

@@ -3,10 +3,11 @@
 html,
 body {
   /* overflow-x: hidden; */
+  width: 100vw;
   background-color:#13142A;
   padding: 0;
   margin: 0;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Work Sans', sans-serif;
 }
 
 a {

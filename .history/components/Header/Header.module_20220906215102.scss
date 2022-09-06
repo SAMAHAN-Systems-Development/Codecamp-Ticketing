@@ -5,6 +5,7 @@
     flex-direction: column;
     height: fit-content;
     margin-top: 3rem;
+    width: 100%;
 
 
     &__image-container {
@@ -20,6 +21,7 @@
     }
 
     &__text-container {
+        font-family: "Space Mono", monospace;
         color: $color--light--yellow;
         display: flex;
         justify-content: center;

@@ -1,0 +1,75 @@
+@import '../../styles/variables.scss';
+
+.card {
+    width: 30rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &--uiux {
+        background-color: $color--pink;
+    }
+
+    &--htmlsass {
+        background-color: #67B702;
+    }
+
+    &--nextstorybook {
+        background-color: $color--purple;
+    }
+
+    &--expressgithub {
+        background-color: $color--orange;
+    }
+
+    &__header {
+        display: flex;
+        font-family: "Space Mono", monospace;
+        font-size: $bodyFontSize;
+        font-weight: $h3FontWeight;
+    }
+
+    &__header-date {
+        color: $color--light--yellow;
+    }
+
+    &__header-day {
+        &--uiux {
+            color: #70004B;
+        }
+        &--htmlsass {
+            color:#2C5000;
+        }
+    
+        &--nextstorybook {
+            color: #3C145C;
+        }
+    
+        &--expressgithub {
+            color:#6a3001;
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        font-family: "Rockids Softed";
+        font-size: $h2FontSize;
+        color: white;
+        margin: 2rem 0;
+    }
+
+    &__content-topics {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__footer {
+        color: $color--light--yellow;
+        font-family: "Space Mono", monospace;
+        font-weight: $bodyFontWeight;
+    }
+}
+

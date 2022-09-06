@@ -1,0 +1,8 @@
+@import '../../styles/variables.scss';
+
+.card_ {
+    width: 10rem;
+    &pink {
+        background-color: $color--pink;
+    }
+}

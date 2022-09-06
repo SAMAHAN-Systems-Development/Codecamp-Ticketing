@@ -1,0 +1,47 @@
+@import '../../styles/variables.scss';
+
+.card_ {
+    color: white !important;
+    background-color: rgba(0, 255, 255, 0.726);
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &pink {
+        background-color: $color--pink;
+    }
+    &green {
+        background-color: $color--green;
+    }
+    &purple {
+        background-color: $color--purple;
+    }
+    &orange {
+        background-color: $color--orange;
+    }
+
+    .header {
+        display: flex;
+        font-family: "Space Mono", monospace;
+        font-weight: $h2FontWeight;
+        .left {
+            color: $color--light--yellow;
+        }
+        .right {
+            color: #70004B;
+        }
+    }
+    .topics{
+        font-family: "Rockids Softed";
+        font-weight: 400;
+        font-size: $h2FontSize;
+        margin: 1.5rem 0;
+    }
+    .get_tickets {
+        font-family: "Space Mono", monospace;
+        font-size: $bodyFontSize;
+    }
+}

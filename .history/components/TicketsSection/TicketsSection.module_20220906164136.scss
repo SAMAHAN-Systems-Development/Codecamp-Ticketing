@@ -1,0 +1,23 @@
+@import '../../styles/variables.scss';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    padding: 1rem;
+    .header {
+        color: white;
+        font-family: "Space Mono", monospace;
+        font-weight: 700;
+        font-size: $h1FontSize;
+    }
+    .content {
+        .row {
+            margin: 1rem 0;
+            display: flex;
+            gap: 1rem;
+        }
+    }
+}

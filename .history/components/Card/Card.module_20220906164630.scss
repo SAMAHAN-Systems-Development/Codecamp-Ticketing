@@ -1,0 +1,31 @@
+@import '../../styles/variables.scss';
+
+.card_ {
+    color: white !important;
+
+    &pink {
+        background-color: $color--pink;
+    }
+    &green {
+        background-color: $color--green;
+    }
+    &purple {
+        background-color: $color--purple;
+    }
+    &orange {
+        background-color: $color--orange;
+    }
+
+    .header {
+        display: flex;
+    }
+    .topics{
+        font-family: "Rockids Softed";
+        font-weight: 400;
+        font-size: $h1FontSize
+        margin: 1.5rem 0;
+    }
+    .get_tickets {
+
+    }
+}

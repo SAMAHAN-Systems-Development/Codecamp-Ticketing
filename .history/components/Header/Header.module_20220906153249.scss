@@ -1,0 +1,19 @@
+@import '../../styles/variables.scss';
+
+.container {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    .img_wrapper{
+        width: 100px;
+        height: 100px;
+    }
+    .text_container {
+        height: 100px;
+        font-family: "Space Mono", monospace;
+        color: $color--light--yellow;
+    }
+}

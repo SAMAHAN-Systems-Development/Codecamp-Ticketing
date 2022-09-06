@@ -1,0 +1,18 @@
+@import '../../styles/variables.scss';
+
+.card {
+    color: white;
+
+    &_pink {
+        background-color: $color--pink;
+    }
+    &_green {
+        background-color: $color--green;
+    }
+    &_purple {
+        background-color: $color--purple;
+    }
+    &_orange {
+        background-color: $color--orange;
+    }
+}

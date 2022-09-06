@@ -2,7 +2,7 @@ import React from 'react';
 import { Card } from '../ComponentIndex';
 import styles from './TicketsSection.module.scss';
 
-export default function TicketsSection({ title }) {
+export default function TicketsSection1({ title }) {
   return (
     <div className={styles["section"]}>
       <div className={styles["section__header"]}>

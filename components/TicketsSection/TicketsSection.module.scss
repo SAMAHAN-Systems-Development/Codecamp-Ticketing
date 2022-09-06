@@ -5,14 +5,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
-    margin: 3rem 0;
 
     &__header {
         color: white;
         font-weight: $h1FontWeight;
         font-size: $h3FontSize;
-        margin: 1rem 0;
+        margin: 0.3rem 0;
     }
     &__content {
         display: flex;

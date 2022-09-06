@@ -1,4 +1,3 @@
-
 import React from 'react';
 import styles from './Header.module.scss';
 import Image from 'next/image';
@@ -7,19 +6,15 @@ import Image from 'next/image';
 export default function Header() {
   return (
     <div className={styles["section"]}>
-      <div className={styles["section__image-container"]}>
-        <div className={styles["section__image-container-wrapper"]}>
-          <Image 
-            src="/assets/images/header_logo.png"
-            alt="Header Background"
-            layout="fill"
-            // width={100}
-            // height={100}
-            objectFit="cover"
-            draggable={false}
-            priority
-          />
-        </div>
+      <div className={styles["section__image-container-wrapper"]}>
+        <Image 
+          src="/assets/images/SysDevCodeCamp-LogoType.png"
+          alt="Header Background"
+          layout="fill"
+          objectFit="contain"
+          draggable={false}
+          priority
+        />
       </div>
       <div className={styles["section__text-container"]}>
         <div className={styles["section__text-container-content"]}>

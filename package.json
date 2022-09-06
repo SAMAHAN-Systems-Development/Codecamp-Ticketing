@@ -15,8 +15,7 @@
     "next": "12.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sass": "^1.54.8",
-    "storybook-addon-next": "^1.6.7"
+    "sass": "^1.54.8"
   },
   "devDependencies": {
     "@babel/core": "^7.19.0",
@@ -31,6 +30,8 @@
     "babel-loader": "^8.2.5",
     "eslint": "8.23.0",
     "eslint-config-next": "12.2.5",
-    "eslint-plugin-storybook": "^0.6.4"
+    "eslint-plugin-storybook": "^0.6.4",
+    "sass-loader": "^13.0.2",
+    "storybook-addon-next": "^1.6.9"
   }
 }

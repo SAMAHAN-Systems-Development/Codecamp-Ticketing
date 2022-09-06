@@ -16,14 +16,14 @@ export default function TicketsSection({ title }) {
             day="Tuesday" 
             dev_type="<UI/UX />" 
             main_topic={["Figma & Design Fundamentals"]} 
-            link="https://docs.google.com/forms/d/e/1FAIpQLSeCS8uGRca1lc1EJQ5km6ou6S__nF1lZtYLc7y7P_AsHdbf2Q/viewform" />
+            link="https://fonts.google.com/knowledge" />
           <Card 
             type="htmlsass" 
             date="D-2: SEP. 30, 2022" 
             day="Friday" 
             dev_type="<FRONT-END />" 
             main_topic={["HTML & Sass", "Intro to Javascript-React"]} 
-            link="https://docs.google.com/forms/d/e/1FAIpQLSdwDceQ6UmmE15t9Wattl78FIdOto2EKLebFihSfGFRq4ldaQ/viewform" />
+            link="https://fonts.google.com/knowledge" />
         </div>
         <div className={styles["section__content-row"]}>
           <Card 
@@ -32,14 +32,14 @@ export default function TicketsSection({ title }) {
             day="Saturday" 
             dev_type="<FRONT-END />" 
             main_topic={["intro to nextjs + storybook"]} 
-            link="https://docs.google.com/forms/d/e/1FAIpQLSegXXjvOHOHInRo480ve3GpK5ys_y1-mDPROOhvhoRCy1P3uA/viewform" />
+            link="https://fonts.google.com/knowledge" />
           <Card
             type="expressgithub"
             date="D-4: OCT. 7, 2022"
             day="Friday"
             dev_type="<BACK-END/>"
             main_topic={["Restfulexpressjs", "github desktop crash course"]} 
-            link="https://docs.google.com/forms/d/e/1FAIpQLSd5RJj6NkQ3tzeA9OZcCiS0CTQ_0q7KN2XVhHfbqPB8E4dsXQ/viewform" />
+            link="https://fonts.google.com/knowledge" />
         </div>
       </div>
     </div>

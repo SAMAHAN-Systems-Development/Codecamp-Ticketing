@@ -30,7 +30,7 @@ export default function Footer() {
         <section className={styles["footer__right-section"]}>
           <div className={styles["footer__logo-sticker"]}>
             <Image
-              src="/assets/images/SysDev Smiley Sticker.png"
+              src="/assets/images/SysDev-Smiley-Sticker.png"
               alt="SysDev Logo Sticker"
               layout="fill"
               objectFit="contain"

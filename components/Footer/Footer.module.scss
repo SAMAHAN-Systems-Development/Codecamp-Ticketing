@@ -1,1 +1,77 @@
 @import '../../styles/variables.scss';
+
+.footer {
+    background-color: $color--blue;
+    padding: 2.541rem 7.5rem;
+    color: #ffffff;
+    width: 100%;
+
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    &__left-section{
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+    }
+
+    &__title{
+        h2 {
+            font-family: 'Rockids-Softed', 'Space Mono', monospace, Arial, Helvetica, sans-serif;
+            font-size: 2.858rem;
+            font-weight:400;
+            letter-spacing: 0.1rem;
+        }
+    }
+
+    &__caption{
+        h3 {
+            font-size: 1.27rem;
+            font-weight:400;
+        }
+    }
+
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__contacts-item {
+        display: flex;
+        gap: 0.5rem;
+
+        h4{
+            font-size: 1rem;
+        }
+
+        h4:nth-child(1){
+            font-weight: 400;
+        }
+
+        h4:nth-child(2){
+            color: $color--yellow;
+        }
+    }
+
+    &__right-section{
+        display: flex;
+        flex-direction: row;
+        column-gap: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__logo-sticker{
+        position: relative;
+        width: 4.106rem;
+        height: 4.106rem;
+    }
+
+    &__logo-text{
+        font-size: 2.416rem;
+        line-height: 32.47px;
+    }
+}

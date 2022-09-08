@@ -73,13 +73,31 @@
 
     &__logo-text{
         font-size: 2.416rem;
-        line-height: 32.47px;
+        line-height: 2.029rem;
     }
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1200px) {
     .footer{
         padding: 2.541rem 2rem;
     }
   }
 
+@media only screen and (max-width: 992px) {
+    .footer {
+        padding: 1rem;
+        &__content {
+            width: 100%;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        &__contacts-item {
+            justify-content: center;
+        }
+
+        &__left-section {
+            align-items: center;
+        }
+    }
+}

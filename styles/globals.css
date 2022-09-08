@@ -27,3 +27,18 @@ a {
   font-weight: normal;
   font-style: normal;
 }
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width: 325px) {
+  html {
+    font-size: calc(8px + 0.390625vw) !important;
+  }
+}
+
+/* SMALL DEVICES */
+@media screen and (max-width: 576px) {
+  html {
+    font-size: calc(12px + 0.390625vw);
+  }
+}

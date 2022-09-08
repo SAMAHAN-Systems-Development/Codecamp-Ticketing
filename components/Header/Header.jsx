@@ -1,12 +1,25 @@
 import React from 'react';
 import styles from './Header.module.scss';
 import Image from 'next/image';
-
+import { motion } from 'framer-motion';
 
 export default function Header() {
+  const lift = {
+    whileHover: {
+      scale: 1.2
+    },
+    whileTap: {
+      scale: 0.8
+    }
+  }
   return (
     <div className={styles["section"]}>
-      <div className={styles["section__image-container-wrapper"]}>
+      <motion.div
+        className={styles["section__image-container-wrapper"]}
+        whileHover="whileHover"
+        whileTap="whileTap"
+        variants={lift}
+      >
         <Image 
           src="/assets/images/SysDevCodeCamp-LogoType.png"
           alt="Header Background"
@@ -15,7 +28,7 @@ export default function Header() {
           draggable={false}
           priority
         />
-      </div>
+      </motion.div>
       <div className={styles["section__text-container"]}>
         <div className={styles["section__text-container-content"]}>
           <div className={styles["section__text-container-content-row"]}>

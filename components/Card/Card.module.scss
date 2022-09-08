@@ -9,38 +9,30 @@
     justify-content: space-between;
     margin: 0 0.3rem;
     text-transform: uppercase;
-
     &:hover {
         cursor: pointer;
     }
-
     &--uiux {
         background-color: $color--pink;
     }
-
     &--htmlsass {
         background-color: #67B702;
     }
-
     &--nextstorybook {
         background-color: $color--purple;
     }
-
     &--expressgithub {
         background-color: $color--orange;
     }
-
     &__header {
         display: flex;
         flex-direction: row;
         font-size: $bodyFontSize;
         font-weight: $h3FontWeight;
     }
-
     &__header-date {
         color: $color--light--yellow;
     }
-
     &__header-day {
         &--uiux {
             color: #70004B;
@@ -57,7 +49,6 @@
             color:#6a3001;
         }
     }
-
     &__content {
         display: flex;
         flex-direction: column;
@@ -68,12 +59,10 @@
         margin: 1rem 0;
         letter-spacing: 0.035em;
     }
-
     &__content-topics {
         display: flex;
         flex-direction: column;
     }
-
     &__footer {
         color: $color--light--yellow;
         font-weight: $bodyFontWeight;
@@ -81,3 +70,24 @@
     }
 }
 
+
+@media only screen and (max-width: 450px) {
+    .card {
+        align-self: center;
+        width: 90%;
+        text-align: center;
+        gap: 1rem;
+        &__header {
+            align-self: center;
+            font-size: $bodyFontSize;
+            font-weight: $h4FontWeight;
+        }
+        &__content {
+            font-size: $h3FontSize;
+        }
+        &__footer {
+            font-size: $bodyFontSize;
+        }
+
+    }
+}

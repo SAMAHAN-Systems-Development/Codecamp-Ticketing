@@ -69,6 +69,12 @@
         position: relative;
         width: 4.106rem;
         height: 4.106rem;
+        transition: transform 1s ease-in-out;
+
+        &:hover{
+            transform: rotate(360deg);
+            transition: transform 2s ease-in-out;
+        }
     }
 
     &__logo-text{

@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from "./Footer.module.scss";
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -38,10 +39,14 @@ export default function Footer() {
               priority
             />
           </div>
-          <div className={styles["footer__logo-text"]}>
-            <h4>SYS</h4>
-            <h4>DEV</h4>
-          </div>
+          <Link href="https://www.facebook.com/SAMAHANSysDev">
+            <a target="_blank">
+              <div className={styles["footer__logo-text"]}>
+                <h4>SYS</h4>
+                <h4>DEV</h4>
+              </div>
+            </a>
+          </Link>
         </section>
       </div>
     </div>

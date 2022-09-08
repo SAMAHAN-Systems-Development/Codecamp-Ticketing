@@ -1,12 +1,27 @@
-import Link from 'next/link';
 import React from 'react';
 import styles from './Card.module.scss';
+import { motion } from 'framer-motion';
 
 export default function Card({ type, date, day, dev_type, main_topic, link }) {
 
+  const lift = {
+    whileHover: {
+      y: -15
+    },
+    whileTap: {
+      scale: 0.8
+    }
+  }
   return (
-    <Link
-     href={link} passHref={true}>
+    <motion.a
+      href={link}
+      target="_blank"
+      rel="noreferrer noopenner"
+      initial="initial"
+      animate="animate"
+      whileHover="whileHover"
+      whileTap="whileTap"
+      variants={lift}>
       <div className={[styles["card"], styles[`card--${type}`]].join(" ")}>
         <div className={styles["card__header"]}>
           <div className={styles["card__header-date"]}>
@@ -32,6 +47,6 @@ export default function Card({ type, date, day, dev_type, main_topic, link }) {
           GET TICKETS HERE -{'>'}
         </div>
       </div>
-    </Link>
+    </motion.a>
     )
 }

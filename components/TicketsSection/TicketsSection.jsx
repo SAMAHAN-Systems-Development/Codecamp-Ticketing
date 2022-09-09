@@ -42,7 +42,7 @@ export default function TicketsSection1({ title }) {
             day="Friday"
             time="3-5PM"
             dev_type="<BACK-END/>"
-            main_topic={["Restfulexpressjs", "github desktop crash course"]} 
+            main_topic={["Restful expressjs", "github desktop crash course"]} 
             link="https://docs.google.com/forms/d/e/1FAIpQLSd5RJj6NkQ3tzeA9OZcCiS0CTQ_0q7KN2XVhHfbqPB8E4dsXQ/viewform" />
         </div>
       </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Card.module.scss';
 import { motion } from 'framer-motion';
 
-export default function Card({ type, date, day, dev_type, main_topic, link }) {
+export default function Card({ type, date, day, time, dev_type, main_topic, link }) {
 
   const lift = {
     whileHover: {
@@ -28,7 +28,10 @@ export default function Card({ type, date, day, dev_type, main_topic, link }) {
             {date}
           </div>
           <div className={[styles["card__header-day"], styles[`card__header-day--${type}`]].join(" ")}>
-          &nbsp;//&nbsp;{day}
+            &nbsp;//&nbsp;{day}
+          </div>
+          <div className={[styles["card__header-time"], styles[`card__header-time--${type}`]].join(" ")}>
+            &nbsp;@&nbsp;{time}
           </div>
         </div>
         <div className={styles["card__content"]}>

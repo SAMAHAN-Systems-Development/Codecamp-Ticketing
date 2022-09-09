@@ -25,12 +25,16 @@
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
     .section {
         padding: 1.5rem 0.5rem !important;
         &__header {
             font-size: $h5FontSize !important;
             padding: 1rem !important;
+        }
+        &__content-row{
+            margin: 1rem 0 !important;
+            gap: 2rem !important;
         }
     }
 }
@@ -42,7 +46,8 @@
         }
         &__content-row{
             flex-direction: column;
-            margin: 0.5rem 0;
+            margin: 0.8rem 0;
+            gap: 1.5rem;
         }
     }
 }

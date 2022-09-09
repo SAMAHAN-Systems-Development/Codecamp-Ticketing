@@ -28,13 +28,29 @@
     &__header {
         display: flex;
         flex-direction: row;
-        font-size: $bodyFontSize;
+        font-size: $body2FontSize;
         font-weight: $h3FontWeight;
     }
     &__header-date {
         color: $color--light--yellow;
     }
     &__header-day {
+        &--uiux {
+            color: #70004B;
+        }
+        &--htmlsass {
+            color:#2C5000;
+        }
+    
+        &--nextstorybook {
+            color: #3C145C;
+        }
+    
+        &--expressgithub {
+            color:#6a3001;
+        }
+    }
+    &__header-time {
         &--uiux {
             color: #70004B;
         }
@@ -72,7 +88,7 @@
 }
 
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
     .card {
         align-self: center;
         width: 90%;
@@ -80,7 +96,7 @@
         gap: 1rem;
         &__header {
             align-self: center;
-            font-size: $bodyFontSize;
+            font-size: $body2FontSize;
             font-weight: $h4FontWeight;
         }
         &__content {

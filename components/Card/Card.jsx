@@ -33,7 +33,7 @@ export default function Card({ type, date, day, time, dev_type, main_topic, link
           <div className={[styles["card__header-time"], styles[`card__header-time--${type}`]].join(" ")}>
             &nbsp;@&nbsp;{time}
           </div>
-        </div>
+        </div> 
         <div className={styles["card__content"]}>
           <div className={styles["card__content-devtype"]}>
             {dev_type}

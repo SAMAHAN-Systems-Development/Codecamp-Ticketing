@@ -32,7 +32,7 @@ export default function Header() {
       <div className={styles["section__text-container"]}>
         <div className={styles["section__text-container-content"]}>
           <div className={styles["section__text-container-content-row"]}>
-            <span className={styles["section__text-container-content-row-title"]}>SAMAHAN SysDev Code Camp For Dummies 2022</span> is the first ever online code camp hosted by the SAMAHAN System Development committee. This event is centered on web development — the SysDev way. 
+            <span className={styles["section__text-container-content-row-title"]}>SAMAHAN SysDev Code Camp For Dummies 2022</span> is the first ever online code camp hosted by the Department of SAMAHAN Systems Development. This event is centered on web development — the SysDev way. 
             </div>
             <div className={styles["section__text-container-content-row"]}>
             The series of topics that the event will tackle will be completely for beginners. However, seasoned web developers are also welcome to attend to broaden their perspective.
